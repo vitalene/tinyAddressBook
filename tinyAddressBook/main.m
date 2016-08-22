@@ -11,7 +11,9 @@ int main(int argc, const char * argv[]) {
         
     }
     
-    printCard();
+    Card *cardstuff = printCard();
+    
+   // NSLog(@"This is the card's contents: %@", cardstuff);
     
     
     return 0;

@@ -6,7 +6,7 @@
 #define PrintCard_h
 #import "getInput.h"
 
-void printCard() {
+Card *printCard() {
     
     NSString *first = getInputFromUser(10, @"Please input the person's first name:");
     NSString *last = getInputFromUser(10, @"Please input the person's last name:");
@@ -15,6 +15,8 @@ void printCard() {
     
     
     Card *myCard = [[Card alloc] initWithName:[NSString stringWithFormat:@"%@                                                        |        %@", first, last ] emailAddress:email buddyName:buddy];
+    
+    NSLog(@"Here is the card:                    ");
     NSLog(@"-------------------------------------");
     NSLog(@"|        %@", myCard.name);
     NSLog(@"|        %@", myCard.email);
@@ -22,6 +24,10 @@ void printCard() {
     NSLog(@"-------------------------------------");
     NSLog(@"|  Their buddy is: %@", myCard.buddy);
     NSLog(@"-------------------------------------");
+    
+  //  return @[myCard.name, myCard.email, myCard.buddy];
+    
+    return myCard;
     
 };
 

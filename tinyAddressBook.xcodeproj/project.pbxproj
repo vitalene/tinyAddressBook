@@ -26,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		280514761D6BAF2B0080431B /* PrintCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintCard.h; sourceTree = "<group>"; };
+		280514771D6BB2870080431B /* GetCardInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetCardInput.h; sourceTree = "<group>"; };
 		28A201A51D6B826100033789 /* tinyAddressBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tinyAddressBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A201A81D6B826100033789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28A201B61D6B872100033789 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 			children = (
 				28A201A81D6B826100033789 /* main.m */,
 				280514761D6BAF2B0080431B /* PrintCard.h */,
+				280514771D6BB2870080431B /* GetCardInput.h */,
 				28A201BB1D6B974300033789 /* GetInput.h */,
 				28A201BC1D6B975700033789 /* getInput.m */,
 				28A201B61D6B872100033789 /* Card.h */,
