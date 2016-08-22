@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		28A201A91D6B826100033789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A201A81D6B826100033789 /* main.m */; };
-		28A201B81D6B872100033789 /* card.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A201B71D6B872100033789 /* card.m */; };
+		28A201B81D6B872100033789 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A201B71D6B872100033789 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		28A201A51D6B826100033789 /* tinyAddressBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tinyAddressBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A201A81D6B826100033789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28A201B61D6B872100033789 /* card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
-		28A201B71D6B872100033789 /* card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = card.m; sourceTree = "<group>"; };
+		28A201B61D6B872100033789 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		28A201B71D6B872100033789 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		28A201BA1D6B897200033789 /* enum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enum.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				28A201A81D6B826100033789 /* main.m */,
-				28A201B61D6B872100033789 /* card.h */,
-				28A201B71D6B872100033789 /* card.m */,
+				28A201B61D6B872100033789 /* Card.h */,
+				28A201B71D6B872100033789 /* Card.m */,
 				28A201BA1D6B897200033789 /* enum.h */,
 			);
 			path = tinyAddressBook;
@@ -127,7 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A201A91D6B826100033789 /* main.m in Sources */,
-				28A201B81D6B872100033789 /* card.m in Sources */,
+				28A201B81D6B872100033789 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
