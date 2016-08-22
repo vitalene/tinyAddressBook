@@ -1,10 +1,10 @@
-//  card.h
+//  Card.h
 //  tinyAddressBook
 
 
 #import <Foundation/Foundation.h>
 
-@interface card : NSObject {
+@interface Card : NSObject {
     NSString *_name;
     NSString *_email;
 }

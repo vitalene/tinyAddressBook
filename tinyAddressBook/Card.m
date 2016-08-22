@@ -1,10 +1,10 @@
-//  card.m
+//  Card.m
 //  tinyAddressBook
 
 
-#import "card.h"
+#import "Card.h"
 
-@implementation card
+@implementation Card
 
 - (instancetype)init {
     return [self initWithName:_name emailAddress:@"email@email.com"];
