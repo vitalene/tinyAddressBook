@@ -7,7 +7,7 @@
 @implementation Card
 
 - (instancetype)init {
-    return [self initWithName:_name emailAddress:@"email@email.com"];
+    return [self initWithName:_name emailAddress:_email];
 }
 
 - (instancetype)initWithName:(NSString *)name
@@ -19,22 +19,6 @@
         _email = email;
     }
     return self;
-}
-
-- (NSString *)name {
-    return _name;
-}
-
--(NSString *)email {
-    return _email;
-}
--(NSString *)setName:(NSString*)name {
-    _name = name;
-    return _name;
-}
--(NSString *)setEmail:(NSString *)email {
-    _email = email;
-    return _email;
 }
 
 
