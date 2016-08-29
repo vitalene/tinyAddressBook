@@ -22,6 +22,17 @@
     }
     return self;
 }
-
+- (NSString *)description {
+    
+    NSLog(@"Here is the card:                    ");
+    NSLog(@"-------------------------------------");
+    NSLog(@"|        %@", self.name);
+    NSLog(@"|        %@", self.email);
+    NSLog(@"-------------------------------------");
+    NSLog(@"-------------------------------------");
+    NSLog(@"|  Their buddy is: %@", self.buddy);
+    NSLog(@"-------------------------------------");
+    return @"";
+}
 
 @end

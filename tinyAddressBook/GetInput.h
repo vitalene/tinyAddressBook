@@ -24,7 +24,18 @@ NSString *getInputFromUser (int nameLength, NSString *prompt)
 }
 ;
 
-
+NSNumber *getNumberFromUser(NSString *prompt) {
+    int choice = -1;
+    int numberOfItemsScanned = 0;
+    
+    while (numberOfItemsScanned != 1) {
+        fpurge(stdin);
+        NSLog(@"%@", prompt);
+        numberOfItemsScanned = scanf("%d", &choice);
+    }
+    
+    return @(choice);
+}
 
 
 #endif /* GetInput_h */
